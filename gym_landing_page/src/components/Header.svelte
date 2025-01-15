@@ -1,5 +1,5 @@
 <script>
-    // import { openModal } from "../store";
+     import { openModal } from "../store";        
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -12,6 +12,7 @@
             </h1>
         </a>
         <button aria-label="Open menu"
+        on:click={() => ($openModal = true)}
            
             class="md:hidden grid place-items-center"
         >
