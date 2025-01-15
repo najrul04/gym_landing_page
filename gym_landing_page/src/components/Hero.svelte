@@ -1,4 +1,5 @@
 <script>
+  import CtAs from "./CTAs.svelte";
   import Header from "./Header.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
 
@@ -19,5 +20,6 @@
             >personalized workouts, exercise explanations, analytics</span
         > and much much more.
     </p>
+    <CtAs/>
    </div>
 </SectionWrapper>
