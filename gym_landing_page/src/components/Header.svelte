@@ -11,7 +11,7 @@
                 Swoley <span class="text-indigo-400">Moley</span>
             </h1>
         </a>
-        <button
+        <button aria-label="Open menu"
            
             class="md:hidden grid place-items-center"
         >
